@@ -4,7 +4,23 @@
         <title>Unidade 02 - Elemento Head</title>
         <meta charset="utf-8">
         
+        <!-- área de estilos -->
+        <style>
+            body{
+                background: #DDD;
+                font-family: Georgia, sans-serif;
+            }
+        </style>
+        
+        <!-- área de scripts -->
+        <script>
+            function EscreverNome(){
+                nome.innerHTML = "Hiagor Queiros";
+            }
+            window.onload = EscreverNome;
+        </script>
     </head>
     <body>
+        <p id="nome"></p>
     </body>
 </html>

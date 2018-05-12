@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+    <head>
+        <title>Unidade 02 - Elemento Head</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Hiagor Queiros">
+        <meta name="keywords" content="Hiagor, HTML5,Curso">
+        <meta name="description" content="Página do Curso de HTML5">
+        <!-- Meta para dar refresh na página -->
+        <meta http-equiv="refresh" content="3">
+        
+        <!-- área de Scripts -->
+        <script>
+            function Sorteio(){
+                sorteio.innerHTML = Math.round(Math.random() *50);
+            }
+            
+            window.onload =Sorteio;
+        </script>
+    </head>
+    <body>
+        <p id="sorteio"></p>
+    </body>
+</html>
